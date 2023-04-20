@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>1.1</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="background">
+        <div class="logo">
+          <img class="img" src="./assets/img/logo.svg" alt="logo" />
+        </div>
+      </div>
+      <section class="main">
+        <header class="header">
+          <h1>Get iintoo it today</h1>
+          <p class="subtext">
+            There is no charge or obligation upon registration
+          </p>
+        </header>
+        <section class="social">
+          <ul class="social-links">
+            <li>
+              <a href="https://www.facebook.com/" class="facebook btn"
+                >Register with Facebook</a
+              >
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/" class="linkedin btn"
+                >Register with LinkedIn</a
+              >
+            </li>
+          </ul>
+          <p class="border">OR</p>
+          <section class="modal">
+            <div class="modal__form">
+              <form class="form" action="#" method="get">
+                <input
+                  class="modal__input"
+                  type="email"
+                  name="email"
+                  required
+                  placeholder="Email"
+                  value=" gus.goodwin@gmail.com"
+                />
+                <input
+                  class="modal__input"
+                  type="tel"
+                  name="phone"
+                  placeholder=" Phone"
+                  required
+                />
+              </form>
+            </div>
+          </section>
+        </section>
+        <section class="types">
+          <h2>What type of invester are you?</h2>
+          <p class="subtext2">Select the type of invester you are below.</p>
+          <div class="selection">
+            <form class="choice">
+              <input
+                type="radio"
+                id="choice1"
+                value="individual"
+                name="type"
+                checked
+              />
+              <label for="choice1">Individual</label>
+
+              <input type="radio" id="choice2" value="business" name="type" />
+              <label for="choice2">Business</label>
+
+              <input type="radio" id="choice3" value="IRA" name="type" />
+              <label for="choice3">IRA</label>
+
+              <input type="radio" id="choice4" value="trust" name="type" />
+
+              <label for="choice4">Trust</label>
+            </form>
+            <div class="info">
+              <p>
+                I am a natural person investing on my own behalf as a sole
+                owner, joint tenant, or tenant in common.
+              </p>
+            </div>
+          </div>
+        </section>
+        <footer class="footer">
+          <form>
+            <label
+              ><input type="checkbox" /> I agree to the terms and receiving
+              notifications from iintoo
+              <a href="#" class="footer__link">View full terms</a>
+            </label>
+          </form>
+          <form>
+            <button class="button">Create Account</button>
+          </form>
+        </footer>
+      </section>
+    </div>
+  </body>
+</html>

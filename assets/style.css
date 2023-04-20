@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "Barlow";
+  src: url("../assets/fonts/Barlow-Regular.otf");
+}
+@font-face {
+  font-family: "Barlow Thin ";
+  src: url("../assets/fonts/Barlow-Thin.otf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Barlow";
+}
+
+li,
+.btn {
+  text-decoration: none;
+  color: #ffffff;
+  list-style-type: none;
+}
+.container {
+  display: flex;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 80px 50px;
+  overflow: hidden;
+}
+
+.background {
+  background-image: url(./img/bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100vh;
+  max-height: 1000px;
+  background-repeat: no-repeat;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 70px 50px;
+}
+.header {
+  font-family: "Barlow Thin";
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.img {
+  max-width: 137px;
+  margin: 39px;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 50px 0;
+}
+
+.social-links {
+  display: flex;
+  gap: 25px;
+  justify-content: space-evenly;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  width: 280px;
+  height: 35px;
+  gap: 30px;
+  font-size: 15px;
+}
+
+.facebook {
+  background-color: #255a9b;
+}
+
+.facebook::before {
+  content: "";
+  background-image: url(./img/facebook.svg);
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+}
+
+.linkedin {
+  background-color: #0076b6;
+}
+
+.linkedin::before {
+  content: "";
+  background-image: url(./img/linkedin.svg);
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+.border {
+  display: flex;
+  align-items: center;
+  margin-left: 195px;
+  font-size: 12px;
+}
+
+.border::before {
+  content: "";
+  width: 80px;
+  height: 1px;
+  border-radius: 1px;
+  background: #afafaf;
+  margin: 10px 5px;
+}
+
+.border::after {
+  content: "";
+  width: 80px;
+  height: 1px;
+  border-radius: 1px;
+  background: #afafaf;
+  margin: 10px 5px;
+}
+
+.form {
+  display: flex;
+  gap: 25px;
+}
+
+.modal__input {
+  width: 280px;
+  border: 1px solid #fff;
+  padding-bottom: 40px;
+  border-color: #afafaf;
+  border-radius: 0 4px;
+  font-weight: bold;
+}
+
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.subtext {
+  color: #7b8a92;
+}
+
+.choice {
+  display: flex;
+  gap: 25px;
+}
+
+.choice label::after {
+  content: "\24d8";
+  font-size: 8px;
+  color: #afafaf;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-left: 5px;
+}
+
+.info {
+  width: 275px;
+  box-shadow: 0px 0px 11px 6px #eeeeee;
+  margin: 25px 10px 35px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.subtext2 {
+  color: #7b8a92;
+  margin: 10px 0 30px 0;
+}
+.checkbox__text {
+  color: #96a5b1;
+}
+
+.footer {
+  color: #96a5b1;
+}
+.button {
+  margin-top: 45px;
+  width: 200px;
+  height: 30px;
+  background-color: #3698fb;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
